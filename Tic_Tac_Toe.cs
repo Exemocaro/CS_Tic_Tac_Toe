@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp4
 {
@@ -388,9 +388,9 @@ namespace ConsoleApp4
                                     {
                                         Change_Block_AI(7);
                                     }
-                                    else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                                    else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                                     {
-                                        Change_Block_AI(4);
+                                        Change_Block_AI(1);
                                     }
                                     else if (Equals(blocks[3], blocks[9]) && Equals(blocks[3], " X ") && Check_Tile_Availability(blocks[6])) // para defesa vertical
                                     {
@@ -496,9 +496,9 @@ namespace ConsoleApp4
                                     {
                                         Change_Block_AI(7);
                                     }
-                                    else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                                    else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                                     {
-                                        Change_Block_AI(4);
+                                        Change_Block_AI(1);
                                     }
                                     else if (Equals(blocks[3], blocks[9]) && Equals(blocks[3], " X ") && Check_Tile_Availability(blocks[6])) // para defesa vertical
                                     {
@@ -601,9 +601,9 @@ namespace ConsoleApp4
                                 {
                                     Change_Block_AI(7);
                                 }
-                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                                 {
-                                    Change_Block_AI(4);
+                                    Change_Block_AI(1);
                                 }
                                 else if (Equals(blocks[6], blocks[9]) && Equals(blocks[6], " X ") && Check_Tile_Availability(blocks[3])) // para defesa vertical
                                 {
@@ -745,9 +745,9 @@ namespace ConsoleApp4
                                 {
                                     Change_Block_AI(7);
                                 }
-                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                                 {
-                                    Change_Block_AI(4);
+                                    Change_Block_AI(1);
                                 }
                                 else if (Equals(blocks[3], blocks[9]) && Equals(blocks[3], " X ") && Check_Tile_Availability(blocks[6])) // para defesa vertical
                                 {
@@ -953,9 +953,9 @@ namespace ConsoleApp4
                                 {
                                     Change_Block_AI(7);
                                 }
-                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                                else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                                 {
-                                    Change_Block_AI(4);
+                                    Change_Block_AI(1);
                                 }
                                 else if (Equals(blocks[3], blocks[9]) && Equals(blocks[3], " X ") && Check_Tile_Availability(blocks[6])) // para defesa vertical
                                 {
@@ -1105,9 +1105,9 @@ namespace ConsoleApp4
                             {
                                 Change_Block_AI(7);
                             }
-                            else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[4])) // para defesa vertical
+                            else if (Equals(blocks[4], blocks[7]) && Equals(blocks[7], " X ") && Check_Tile_Availability(blocks[1])) // para defesa vertical
                             {
-                                Change_Block_AI(4);
+                                Change_Block_AI(1);
                             }
                             else if (Equals(blocks[3], blocks[9]) && Equals(blocks[3], " X ") && Check_Tile_Availability(blocks[6])) // para defesa vertical
                             {
