@@ -143,6 +143,7 @@ namespace ConsoleApp4
             switch (iinput)
             {
                 case "d":
+                    came_from_settings = false;
                     Console.WriteLine("Choose your difficulty between 1 and 3, but don't regret it...");
                     Console.WriteLine("1 --> Easy");
                     Console.WriteLine("2 --> Medium");
@@ -166,9 +167,11 @@ namespace ConsoleApp4
                     Settings();
                     break;
                 case "q":
+                    came_from_settings = false;
                     Main();
                     break;
                 case "t":
+                    came_from_settings = false;
                     if (time == false)
                     {
                         time = true;
@@ -181,6 +184,7 @@ namespace ConsoleApp4
                     Settings();
                     break;
                 case "s":
+                    came_from_settings = false;
                     if (sounds == false)
                     {
                         Console.Beep(2000, 100);
